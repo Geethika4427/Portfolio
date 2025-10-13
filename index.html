@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Geethika Veerla — Java Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Geethika Veerla — Java Full Stack Developer (Spring Boot, React, MySQL)" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Geethika Veerla</h1>
+        <p class="subtitle">Java Full Stack Developer</p>
+      </div>
+      <nav class="site-nav" id="nav">
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul id="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-left">
+        <!-- <h2>Hello — I build web apps with Java &amp; JavaScript</h2> -->
+         <h2>Hello — I'm Geethika Veerla</h2>
+        <p>Java Full Stack Developer experienced in Spring Boot, React.js, MySQL and MongoDB. I build scalable, user-friendly applications and love learning new technologies.</p>
+        <p class="actions">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn btn-outline" href="mailto:vgeethika26@gmail.com">Contact Me</a>
+        </p>
+      </div>
+      <div class="hero-right">
+        <div class="card">
+          <h3>Quick Links</h3>
+          <ul class="quick-links">
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/geethika-veerla-52b0aa217" target="_blank">linkedin.com/in/geethika-veerla-52b0aa217</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/Geethika4427" target="_blank">github.com/Geethika4427</a></li>
+            <li><strong>Email:</strong> vgeethika26@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About Me</h2>
+      <!-- <p>I’m a Java Full Stack Developer passionate about building scalable and user-friendly web applications using Java, Spring Boot, React.js, MySQL, and MongoDB. During my internship at ExcelR, I developed and maintained full-stack applications and implemented RESTful APIs.</p> -->
+      <p>I’m a Java Full Stack Developer passionate about building scalable and user-friendly web applications using Java, Spring Boot, React.js, MySQL, MongoDB, and the MERN Stack (MongoDB, Express.js, React.js, Node.js).
+
+During my internship at ExcelR, I developed and maintained full-stack applications, implemented RESTful APIs, and worked on both Java-based and MERN-based projects, enhancing performance and user experience.
+
+I enjoy learning new technologies, solving complex problems, and developing clean, maintainable code that delivers real value to users.</p>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project cards will be injected by script.js, or paste static cards here -->
+      </div>
+      <p class="hint">Tip: Edit <code>script.js</code> to update project cards (title, description, links, tech stack).</p>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2>Experience</h2>
+      <div class="job card">
+        <h3>ExcelR — Java Full Stack Developer Intern</h3>
+        <p class="muted">July 2024 – March 2025 | Hyderabad</p>
+        <ul>
+          <li>Developed full-stack features using Spring Boot and React.js, implemented REST APIs and optimized database queries (MySQL/MongoDB).</li>
+          <li>Performed API testing using Postman and maintained code versioning with Git/GitHub, ensuring clean and efficient deployments.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Frontend</h4>
+          <p>HTML, CSS, JavaScript, React.js, Next.js</p>
+        </div>
+        <div class="skill-group">
+          <h4>Backend</h4>
+          <p>Java, Spring Boot, Node.js, Express</p>
+        </div>
+        <div class="skill-group">
+          <h4>Databases & Tools</h4>
+          <p>MySQL, MongoDB, Docker, Git, Postman</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <!-- <p>Interested in working together? Send me a message — or email directly at <strong>vgeethika26@gmail.com</strong>.</p> -->
+       <p>Interested in working together? Email directly at <strong>vgeethika26@gmail.com</strong>.</p>
+      
+      <!-- <form id="contact-form" class="contact-form" onsubmit="handleContact(event);">
+        <label>
+          Your name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Your email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" required></textarea>
+        </label> -->
+        <div class="form-actions">
+          <!-- <button type="submit" class="btn">Send Message</button> -->
+          <button type="button" class="btn btn-outline" onclick="window.location='mailto:vgeethika26@gmail.com'">Email Me</button>
+        </div>
+        <p id="form-status" class="muted"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Geethika Veerla — <a href="https://github.com/Geethika4427" target="_blank">GitHub</a> • <a href="https://linkedin.com/in/geethika-veerla-52b0aa217" target="_blank">LinkedIn</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
