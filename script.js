@@ -17,28 +17,32 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: "Full-stack app to manage school records.<br> Features: CRUD, search, responsive UI, deployed on Vercel.",
       tech: "Next.js • Node.js • MySQL",
       live: "https://schools-app-7npp.vercel.app",
-      repo: "https://github.com/Geethika4427/SchoolsApp.git"
+      repo: "https://github.com/Geethika4427/SchoolsApp.git",
+      demo: ""
     },
     {
       title: "Weather Monitoring Dashboard",
       desc: "Real-time dashboard using OpenWeatherMap API (MERN stack) with visualizations and alerts.",
       tech: "MongoDB • Express • React • Node.js",
       live: "",
-      repo: "https://github.com/Geethika4427/WeatherMonitoring.git"
+      repo: "https://github.com/Geethika4427/WeatherMonitoring.git",
+      demo: ""
     },
     {
       title: "Automated BBC News Poster",
       desc: "Backend automation that summarizes BBC captions (Hugging Face) and posts to X (Twitter).",
       tech: "Node.js • Express • Hugging Face API • Twitter API • Docker",
       live: "",
-      repo: "https://github.com/Geethika4427/Backend-Dev-Assignment.git"
+      repo: "https://github.com/Geethika4427/Backend-Dev-Assignment.git",
+      demo: "assets/Backend Dev Assignment(Sample Set) (1).mp4"
     },
     {
       title: "E-Commerce Platform (FabFashion)",
       desc: "E-commerce web app with product, cart, checkout and JWT-based authentication.",
       tech: "React • Spring Boot • MySQL",
       live: "",
-      repo: "https://github.com/Geethika4427/Project1.git"
+      repo: "https://github.com/Geethika4427/Project1.git",
+      demo: ""
     }
   ];
 
@@ -53,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <p style="margin-top:12px">
         ${p.live ? `<a href="${p.live}" target="_blank">Live</a> • ` : ''}
         <a href="${p.repo}" target="_blank">Code</a>
+        ${p.demo ? ` • <a href="${p.demo}" target="_blank">Demo</a>` : ''}
       </p>
     `;
     grid.appendChild(el);
