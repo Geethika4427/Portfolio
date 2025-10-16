@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const projects = [
     {
       title: "School Management Web App",
-      desc: "Full-stack app to manage school records. Features: CRUD, search, responsive UI, deployed on Vercel.",
-      tech: "Next.js • React • Node.js • MySQL",
+      desc: "Full-stack app to manage school records.<br> Features: CRUD, search, responsive UI, deployed on Vercel.",
+      tech: "Next.js • Node.js • MySQL",
       live: "https://schools-app-7npp.vercel.app",
       repo: "https://github.com/Geethika4427/SchoolsApp.git"
     },
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: "Automated BBC News Poster",
       desc: "Backend automation that summarizes BBC captions (Hugging Face) and posts to X (Twitter).",
-      tech: "Node.js • Express • Docker • Hugging Face API",
+      tech: "Node.js • Express • Hugging Face API • Twitter API • Docker",
       live: "",
       repo: "https://github.com/Geethika4427/Backend-Dev-Assignment.git"
     },
